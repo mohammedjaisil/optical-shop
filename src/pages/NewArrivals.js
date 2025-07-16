@@ -6,7 +6,7 @@ import './NewArrivals.css'; // Add this line to apply styling
 const products = [
   {
     id: 1,
-    image: '/images/gl1.jpg',
+    image: '/Images/gl1.jpg',
     brand: 'SESTINI',
     name: 'Quattro Unisex Square Sunglasses',
     price: 2441.25,
@@ -15,7 +15,7 @@ const products = [
   },
   {
     id: 2,
-    image: '/images/gl2.jpg',
+    image: '/Images/gl2.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
@@ -24,7 +24,7 @@ const products = [
   },
   {
     id: 3,
-    image: '/images/gl3.jpg',
+    image: '/Images/gl3.jpg',
     brand: 'SESTINI',
     name: 'Quattro Unisex Square Sunglasses',
     price: 2441.25,
@@ -33,7 +33,7 @@ const products = [
   },
   {
     id: 4,
-    image: '/images/gl4.jpg',
+    image: '/Images/gl4.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: 5,
-    image: '/images/gl5.jpg',
+    image: '/Images/gl5.jpg',
     brand: 'SESTINI',
     name: 'Quattro Unisex Square Sunglasses',
     price: 2441.25,
@@ -51,7 +51,7 @@ const products = [
   },
   {
     id: 6,
-    image: '/images/gl6.jpg',
+    image: '/Images/gl6.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
@@ -60,7 +60,7 @@ const products = [
   },
   {
     id: 7,
-    image: '/images/gl7.jpg',
+    image: '/Images/gl7.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
@@ -69,7 +69,7 @@ const products = [
   },
   {
     id: 8,
-    image: '/images/gl8.jpg',
+    image: '/Images/gl8.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
@@ -78,7 +78,7 @@ const products = [
   },
   {
     id: 9,
-    image: '/images/gl9.jpg',
+    image: '/Images/gl9.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
@@ -87,7 +87,7 @@ const products = [
   },
   {
     id: 10,
-    image: '/images/gl10.jpg',
+    image: '/Images/gl10.jpg',
     brand: 'SESTINI',
     name: 'Sei E Mezzo Unisex Panthos Sunglasses',
     price: 2194.50,
