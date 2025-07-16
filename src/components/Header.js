@@ -115,17 +115,17 @@ const Header = () => {
                 <Link to="/" style={linkStyle} onClick={() => setMenuOpen(false)}>
                   HOME
                 </Link>
+                <Link to="/products" style={linkStyle} onClick={() => setMenuOpen(false)}>
+                  PRODUCTS
+                </Link>
+                <Link to="/newarrivals" style={linkStyle} onClick={() => setMenuOpen(false)}>
+                NEW ARRAIVALS
+                </Link>
                 <Link to="/about" style={linkStyle} onClick={() => setMenuOpen(false)}>
                   ABOUT
                 </Link>
                 <Link to="/contact" style={linkStyle} onClick={() => setMenuOpen(false)}>
                   CONTACT
-                </Link>
-                <Link to="/products" style={linkStyle} onClick={() => setMenuOpen(false)}>
-                  PRODUCTS
-                </Link>
-                <Link to="/newarrivals" style={linkStyle} onClick={() => setMenuOpen(false)}>
-                New Arrivals
                 </Link>
               </nav>
               <div style={iconsStyle}>
