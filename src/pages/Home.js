@@ -34,7 +34,7 @@ const HomePage = () => {
       title: "A VARIETY OF STYLES",
       subtitle: "Find the best possible match for you",
       buttonText: "VIEW MORE",
-      backgroundImage: "/images/b1.jpg",
+      backgroundImage: "/Images/b1.jpg",
       buttonColor: "#f5376c",
       textColor: "#fff",
       buttonBorder: "none",
@@ -43,7 +43,7 @@ const HomePage = () => {
       title: "Explore Our Exclusive Collection",
       subtitle: "Shop the latest frames today",
       buttonText: "SHOP NOW",
-      backgroundImage: "/images/b2.jpg",
+      backgroundImage: "/Images/b2.jpg",
       buttonColor: "#f5376c",
       textColor: "#fff",
       buttonBorder: "none",
@@ -63,10 +63,10 @@ const HomePage = () => {
   };
 
   const cards = [
-    {  img: "/images/g1.jpg" },
-    {  img: "/images/g2.jpg" },
-    {  img: "/images/g3.jpg" },
-    {  img: "/images/g4.jpg" },
+    {  img: "/Images/g1.jpg" },
+    {  img: "/Images/g2.jpg" },
+    {  img: "/Images/g3.jpg" },
+    {  img: "/Images/g4.jpg" },
   ];
 
   return (
@@ -206,7 +206,7 @@ const HomePage = () => {
     {/* First image container */}
     <div style={{ position: "relative", flex: "1 1 45%", minWidth: "200px" }}>
       <img
-        src="/images/m2.jpg" // Replace with your actual image path
+        src="/Images/m2.jpg" // Replace with your actual image path
         alt="Spring summer style 1"
         style={{
           width: "100%",
@@ -236,7 +236,7 @@ const HomePage = () => {
     {/* Second image container */}
     <div style={{ position: "relative", flex: "1 1 45%", minWidth: "200px" }}>
       <img
-        src="/images/m3.jpg" // Replace with your actual image path
+        src="/Images/m3.jpg" // Replace with your actual image path
         alt="Spring summer style 2"
         style={{
           width: "100%",
@@ -321,7 +321,7 @@ const HomePage = () => {
   {/* Left Image */}
   <div style={{ flex: 1, textAlign: "center" }}>
     <img
-      src="/images/wm.jpg" // Replace with your actual image
+      src="/Images/wm.jpg" // Replace with your actual image
       alt="Offer"
       style={{
         width: "100%",
@@ -381,17 +381,17 @@ const HomePage = () => {
   {[
     {
       title: "Men's",
-      img: "/images/m1.jpg",
+      img: "/Images/m1.jpg",
       buttonText: "Shop Men",
     },
     {
       title: "Women's",
-      img: "/images/w2.jpg",
+      img: "/Images/w2.jpg",
       buttonText: "Shop Women",
     },
     {
       title: "Children's",
-      img: "/images/c1.jpg",
+      img: "/Images/c1.jpg",
       buttonText: "Shop Children",
     },
   ].map(({ title, img, buttonText }, idx) => (
